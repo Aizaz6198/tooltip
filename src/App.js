@@ -5,7 +5,7 @@ import Tooltip from './Tooltip';
 
 class App extends React.Component {
 
-  constructor() {
+  constructor() 
     super();
     this.state = {
       position: "top",
