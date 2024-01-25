@@ -48,7 +48,7 @@ class App extends React.Component {
 
         <div className='btn-position'>
           <div className='grp-name'>
-            Select the position of the hovering....
+            Select the position of the tootip...
           </div>
           <button
             className={this.state.position === 'top' ? "btn active" : "btn"}
