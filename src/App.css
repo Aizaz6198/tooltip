@@ -1,0 +1,125 @@
+.App {
+  width: 99vw;
+  height: 99vh;
+}
+
+/* Navbar... */
+
+.btn-position {
+  margin-top: 4%;
+  margin-left: 10%;
+  width: 80%;
+  font-size: large;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.grp-name {
+  display: block;
+  margin-top: 20px;
+  font-style: Cursive;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+/* Styling of all available buttons.... */
+
+.btn {
+  display: block;
+  height: 60%;
+  margin-top: 1.1%;
+  width: 8%;
+  border: 3px solid rgb(88, 124, 17);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0);
+}
+
+/* Styling of the hover button container. */
+
+#button-container {
+  width: 23%;
+  height: 15%;
+  margin-left: 39.5%;
+  margin-top: 15%;
+}
+
+.hover-btn {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  background-color: #8cd3ef;
+  border: 3px solid #185269 ;
+
+}
+
+/* Styling for the top position hover... */
+
+.top {
+  height: 30%;
+  width: 50%;
+  margin-top: -50%;
+  margin-left: 20%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid #000203;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: red;
+}
+
+/* Styling for the right position hover... */
+
+.right {
+  height: 30%;
+  width: 50%;
+  margin-top: -22%;
+  margin-left: 105%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid #000203;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: red;
+}
+
+/* Styling for the down position hover... */
+
+.down {
+  height: 30%;
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 20%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid #000203;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: red;
+}
+
+/* Styling for the left position hover... */
+
+.left {
+  height: 30%;
+  width: 50%;
+  margin-top: -22%;
+  margin-left: -60%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid #000203;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: red;
+}
+
+/* Styling for the active button ... */
+
+.active {
+  background-color: yellowgreen;
+}
+
+.tooltip {
+  position: relative;
+  text-align: center;
+  left: 1%;
+  top: 30%;
+
+}
